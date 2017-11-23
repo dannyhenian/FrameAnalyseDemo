@@ -1,0 +1,12 @@
+
+https://www.w3cschool.cn/fastjson/fastjson-api.html
+
+https://github.com/alibaba/fastjson/wiki/FieldTypeResolver
+https://github.com/alibaba/fastjson/wiki/PropertyProcessable_cn
+
+
+
+
+
+
+
