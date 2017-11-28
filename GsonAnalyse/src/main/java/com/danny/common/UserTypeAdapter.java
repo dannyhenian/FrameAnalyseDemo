@@ -1,4 +1,5 @@
-package com.danny.common;/**
+package com.danny.common;
+/**
  * Created by danny on 2017-11-22.
  */
 
@@ -39,6 +40,13 @@ public class UserTypeAdapter extends TypeAdapter<User>{
             }else {
                 continue;
             }
+
+            String str = "";
+            switch (str){
+                case "": break;
+            }
+
+
         }
         reader.endObject();
         return user;
