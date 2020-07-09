@@ -3,6 +3,7 @@ package com.danny.test;/**
  */
 
 import com.danny.common.UserTypeAdapter;
+import com.danny.model.Child;
 import com.danny.model.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -26,6 +27,13 @@ public class TypeAdapterTest {
         User vo = gson.fromJson(json,User.class);
 
         System.out.println(vo);
+
+        Child child = new Child("nihao","man",16);
+        String jsonChild = gson.toJson(vo);
+        System.out.println(jsonChild);
+        Child child1 = gson.fromJson(jsonChild,Child.class);
+        System.out.println(child1);
+        System.out.println(child1.getName());
 
 
     }

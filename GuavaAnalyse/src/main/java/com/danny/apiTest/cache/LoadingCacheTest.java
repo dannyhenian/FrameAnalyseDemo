@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class LoadingCacheTest {
     public static void main(String[] args) throws ExecutionException {
-        LoadingCache<Long,AtomicLong> counter =
+        LoadingCache<Long,AtomicLong>  counter =
                 CacheBuilder.newBuilder()
                     .expireAfterWrite(2,TimeUnit.SECONDS)  //设置过期时间为2秒，
                     .build(new CacheLoader<Long, AtomicLong>() {

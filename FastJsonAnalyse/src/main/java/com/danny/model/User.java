@@ -18,7 +18,7 @@ public class User {
 
     private int age;
 
-    @SerializedName(value = "email_address", alternate = {"email", "emailAddress"})
+//    @SerializedName(value = "email_address", alternate = {"email", "emailAddress"})
     @JSONField(name = "email_address", alternateNames = {"email", "emailAddress"})
     private String emailAddress;
 

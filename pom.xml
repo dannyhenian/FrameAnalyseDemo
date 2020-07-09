@@ -9,6 +9,11 @@
     <module>GsonAnalyse</module>
       <module>FastJsonAnalyse</module>
       <module>ZxingAnalyse</module>
+      <module>GuavaAnalyse</module>
+      <module>HttpAnalyse</module>
+      <module>NioAnalyse</module>
+      <module>JavaBasic</module>
+      <module>DisruptorAnalyse</module>
   </modules>
   <packaging>pom</packaging>
 

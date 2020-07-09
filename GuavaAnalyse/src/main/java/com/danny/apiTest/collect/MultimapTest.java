@@ -2,6 +2,7 @@ package com.danny.apiTest.collect;/**
  * Created by danny on 2017-12-22.
  */
 
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 
@@ -17,7 +18,7 @@ import java.util.Set;
 
 public class MultimapTest {
     public static void main(String[] args) {
-        Multimap<Integer,String> map = HashMultimap.create();
+        Multimap<Integer,String> map = ArrayListMultimap.create();
         map.put(101,"A");
         map.put(102,"A");
         map.put(103,"C");
